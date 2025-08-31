@@ -1,0 +1,10 @@
+{
+    "inbounds": [
+        { "type": "socks5", "listen": "127.0.0.1:1080" },
+        { "type": "http", "listen": "127.0.0.1:8080" },
+        { "type": "shadowsocks", "listen": "127.0.0.1:8388", "method": "AES-256-CFB", "password": "test1234" }
+    ],
+    "outbounds": [
+        { "type": "direct" }
+    ]
+}
