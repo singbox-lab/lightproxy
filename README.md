@@ -1,5 +1,6 @@
 # Light Proxy
-
+## Acknowledgement
+This project is supported by [ZMTO](https://zmto.com) with VPS infrastructure.
 A lightweight multi-protocol proxy framework written in Go — supports SOCKS5, HTTP Proxy, and Shadowsocks.
 
 ## Features
@@ -11,8 +12,4 @@ A lightweight multi-protocol proxy framework written in Go — supports SOCKS5, 
 ```bash
 git clone https://github.com/yourname/light-proxy.git
 
-## Acknowledgement
-This project is supported by [ZMTO](https://zmto.com) with VPS infrastructure.
-cd light-proxy
-go mod tidy
-go run ./cmd/lightproxy
+ 
